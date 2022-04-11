@@ -1,0 +1,17 @@
+[package]
+name = "mime_classifier"
+version = "0.0.1"
+authors = [
+    "The Servo Project Developers",
+    "Charles Samborski <demurgos@demurgos.net> (https://demurgos.net)"
+]
+description = "Servo's MIME Classifier / Media Type sniffer as a Rust library"
+keywords = ["mime", "media-type", "classifier", "sniffer", "guesser"]
+readme = "./README.md"
+repository = "https://github.com/demurgos/mime_classifier"
+license = "MPL-2.0"
+edition = "2018"
+
+[dependencies]
+mime = "0.3"
+serde = { version = "1.0", features = ["derive"] }
